@@ -1,0 +1,52 @@
+:root {
+    /* Font familes */
+
+    --font-family-base: 'Montserrat', sans-serif;
+    --font-family-heading: 'Fraunces', serif;
+
+    /* Font-weights */
+
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* Text presets */
+
+    /* Heading */
+
+    --text-heading-xl-size: 2.3rem;
+    --text-heading-xl-line: 1;
+
+    /* Body */
+
+    --text-body-md-size: 1rem;
+    --text-body-md-line: 1.6;
+
+    --text-body-sm-size: 1rem;
+    --text-body-sm-line: 1.2;
+
+    --text-body-xs-size: 0.85rem;
+    --text-body-xs-line: 1.2;
+
+    /* Colors */
+
+    /* Primary */
+    --color-primary-500: hsl(158, 36%, 37%); /* green-500 */
+    --color-primary-700: hsl(158, 42%, 18%); /* green-700 */
+
+    /* Neutral */
+
+    --color-neutral-900: hsl(212, 21%, 14%); /* black */
+    --color-neutral-500: hsl(228, 12%, 48%); /* grey */
+    --color-neutral-100: hsl(30, 38%, 92%); /* cream */
+    --color-neutral-0: hsl(0, 0%, 100%); /* white */
+
+    /* Spacing */
+
+    --space-50: 0.3rem;
+    --space-100: 0.6rem;
+    --space-200: 1.1rem;
+    --space-300: 1.7rem;
+    --space-400: 2.3rem;
+    --space-500: 2.9rem;
+
+}
