@@ -1,4 +1,8 @@
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 130vh;
+    background-color: var(--color-neutral-100);
     font-family: var(--font-family-base);
     font-size: var(--text-body-md-size);
     font-weight: var(--font-weight-bold);
@@ -6,14 +10,40 @@ body {
     color: var(--color-neutral-500);
 }
  
- /* .wrapper {
+ .wrapper {
     width: 90%;
-    margin: 5.7rem auto;
+    margin: 5.7rem auto 0;
+ }
 
- } */
+ .product-card {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.3rem;
+    border-radius: var(--space-100);
+    background-color: var(--color-neutral-0);
+ }
+
+ .product-card__image img {
+    border-radius: var(--space-200) var(--space-200) 0 0;
+ }
+
+ .product-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-200);
+ }
+
+ .product-card__details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-300);
+    margin: 2rem 2rem 0;
+ }
+
 
 
 .product-card__label {
+    margin: 0;
     font-size: var(--text-body-xs-size);
     font-weight: var(--font-weight-medium);
     line-height: var(--text-body-xs-line);
@@ -23,24 +53,54 @@ body {
 }
 
 .product-card__title {
+    margin: 0;
     line-height: var(--text-heading-xl-line);
     color: var(--color-neutral-900);
 }
 
 .product-card__description {
+    margin: 0;
     font-weight: var(--font-weight-medium);
 }
 
+.product-card__pricing {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-200);
+    margin: 0 2rem;
+}
+
+.product-card__prices {
+    display: flex;
+    align-items: center;
+    gap: var(--space-200);
+}
+
 .product-card__current-price {
+    margin: 0;
     color: var(--color-primary-500);
 }
 
 .product-card__original-price {
+    margin: 0;
     font-size: var(--text-body-sm-size);
     font-weight: var(--font-weight-medium);
 }
 
+.product-card__button-icon img {
+    width: var(--text-ui-md-size);
+    height: var(--text-ui-md-size);
+    transform: scale(1.2);
+}
+
 .product-card__button {
+    display: inline-flex;
+    gap: 0.50em;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-200) var(--space-400);
+    border-radius: var(--space-200);
+    border-style: none;
     background-color: var(--color-primary-500);
 }
 
@@ -55,4 +115,8 @@ body {
     font-family: var(--font-family-heading);
     font-size: var(--text-heading-xl-size);
     font-weight: var(--font-weight-bold);
+}
+
+.attribution {
+    margin-top: auto;
 }
