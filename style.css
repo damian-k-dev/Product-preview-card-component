@@ -12,7 +12,7 @@ body {
  
  .wrapper {
     width: 90%;
-    margin: 5.7rem auto 0;
+    margin: 5.7rem auto 3rem;
  }
 
  .product-card {
@@ -127,6 +127,7 @@ body {
 
 
 @media (min-width: 48rem) {
+    
     .wrapper {
         margin: auto;
         display: flex;
