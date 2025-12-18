@@ -5,7 +5,7 @@ The component is implemented using **mobile-first CSS**, **Flexbox**, and modern
 
 ## 🔗 Live Demo
 
-👉 [View Live Site](https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/)
+👉 [View Live Site](https://dayu420.github.io/product-preview-card-component/)
 
 ---
 
