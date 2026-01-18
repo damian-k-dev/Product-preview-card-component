@@ -5,7 +5,7 @@ The component is implemented using **mobile-first CSS**, **Flexbox**, and modern
 
 ## 🔗 Live Demo
 
-👉 [View Live Site](https://dayu420.github.io/product-preview-card-component/)
+👉 [View Live Site](https://damian-k-dev.github.io/product-preview-card-component/)
 
 ---
 
@@ -69,8 +69,8 @@ The component is implemented using **mobile-first CSS**, **Flexbox**, and modern
 
 ## 👤 Author
 
-- GitHub – [@YOUR_GITHUB_USERNAME](https://github.com/dayu420)
-- Frontend Mentor – [Dayu420](https://www.frontendmentor.io/profile/dayu420)
+- GitHub – [@Damian-k-dev](https://github.com/damian-k-dev)
+- Frontend Mentor – [Damian-k-dev](https://damian-k-dev.github.io/product-preview-card-component/)
 
 ---
 
